@@ -10,10 +10,6 @@ public class Sphere extends Circle implements VolumetricShape {
         super(radius);
     }
 
-    @Override
-    public double getPerimeter() {
-        return 0;
-    }
 
     @Override
     public double getArea() {

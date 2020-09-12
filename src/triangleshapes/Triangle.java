@@ -4,9 +4,9 @@ package triangleshapes;
 import base.BaseShape;
 
 public class Triangle implements BaseShape {
-    private double triangleSideA = 0;
-    private double triangleSideB = 0;
-    private double triangleSideC = 0;
+    private double triangleSideA;
+    private double triangleSideB;
+    private double triangleSideC;
 
     public Triangle(double sideA, double sideB, double sideC) {
         this.triangleSideA = sideA;
