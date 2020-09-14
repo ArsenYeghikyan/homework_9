@@ -1,4 +1,4 @@
-package triangleshapes;
+package task_1.triangleshapes;
 
 public class EquilateralTriangle extends Triangle {
     public EquilateralTriangle(double sideA) {

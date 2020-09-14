@@ -1,8 +1,9 @@
-package volumetricshapes;
+package task_1.volumetricshapes;
 
-import base.BaseShape;
+import task_1.base.BaseShape;
 
 public interface VolumetricShape extends BaseShape {
+
 
      double getVolume();
 

@@ -1,7 +1,7 @@
-package triangleshapes;
+package task_1.triangleshapes;
 
 
-import base.BaseShape;
+import task_1.base.BaseShape;
 
 public class Triangle implements BaseShape {
     private double triangleSideA;

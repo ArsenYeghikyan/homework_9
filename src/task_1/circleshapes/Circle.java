@@ -1,6 +1,6 @@
-package circleshapes;
+package task_1.circleshapes;
 
-import base.BaseShape;
+import task_1.base.BaseShape;
 
 public class Circle implements BaseShape {
 

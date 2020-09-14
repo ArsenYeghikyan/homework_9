@@ -1,6 +1,6 @@
-package base;
+package task_1.base;
 
- public interface BaseShape {
+public interface BaseShape {
 
      double getPerimeter();
 

@@ -1,6 +1,6 @@
-package volumetricshapes;
+package task_1.volumetricshapes;
 
-import circleshapes.Circle;
+import task_1.circleshapes.Circle;
 
 
 public class Sphere extends Circle implements VolumetricShape {

@@ -1,4 +1,4 @@
-package triangleshapes;
+package task_1.triangleshapes;
 
 public class RightTriangle extends Triangle {
 
