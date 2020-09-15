@@ -29,6 +29,6 @@ public class Main {
 
 
         myBag.deleteItemFromBag(item4);
-        myBag.showItemBag();
+        myBag.showMyBag();
     }
 }

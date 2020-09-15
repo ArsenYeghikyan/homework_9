@@ -13,7 +13,7 @@ public class MyBag {
 
     }
 
-    public void showItemBag() {
+    public void showMyBag() {
         int itemsCount = 0;
         double sum = 0;
         for (ShoppingItem x : myItemsBag) {
