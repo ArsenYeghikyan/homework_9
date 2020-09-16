@@ -4,7 +4,7 @@ import task_3.base.ShoppingItem;
 
 import java.util.ArrayList;
 
-public class MyBag {
+public  class MyBag {
     ArrayList<ShoppingItem> myItemsBag = new ArrayList<>();
 
     public void addShoppingItems(ShoppingItem item) {

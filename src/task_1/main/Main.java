@@ -18,7 +18,7 @@ public class Main {
         VolumetricShape cylinder = new Cylinder(1, 2);
         VolumetricShape sphere = new Sphere(5);
         VolumetricShape rectangularParallelepiped = new RectangularParallelepiped(4,6,3);
-        VolumetricShape cube = new Cube(4,4,4);
+        VolumetricShape cube = new Cube(4);
 
 
 //        Printer.printAreaAndPerimeter(circle);

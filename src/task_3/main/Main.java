@@ -12,9 +12,9 @@ import static task_3.clothes.ClothingSize.*;
 
 public class Main {
     public static void main(String[] args) {
-        ShoppingItem item1 = new WomenClothing(ADIDAS, 425, XL, "blue");
-        ShoppingItem item2 = new BabyClothes(REEBOK, 125, L, "red");
-        ShoppingItem item3 = new MenClothing(PRADA, 225, XXL, "green");
+        ShoppingItem item1 = new WomenClothing(ADIDAS, XL, "blue");
+        ShoppingItem item2 = new BabyClothes(REEBOK, L, "red");
+        ShoppingItem item3 = new MenClothing(PRADA, XXL, "green");
 
 
         MyBag myBag = new MyBag();
@@ -23,7 +23,7 @@ public class Main {
         myBag.addShoppingItems(item2);
         myBag.addShoppingItems(item3);
 
-        ShoppingItem item4 = new WomenClothing(PRADA, 25, XL, "yellow");
+        ShoppingItem item4 = new WomenClothing(PRADA, XL, "yellow");
         myBag.addShoppingItems(item4);
 
 

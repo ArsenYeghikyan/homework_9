@@ -7,23 +7,23 @@ public class ShoppingItem {
     private double price;
     private ClothingBrands brand;
 
-    public ShoppingItem(ClothingBrands brand, double price) {
+    public ShoppingItem(ClothingBrands brand) {
 
         this.brand = brand;
-        this.price = price;
+        this.price = getPrice();
 
     }
 
-
+    protected void setPrice(double price) {
+        this.price = price;
+    }
 
     public ClothingBrands getBrand() {
         return brand;
     }
 
     public double getPrice() {
-        if (price <= 0) {
-            return 0;
-        }
+
         return price;
     }
 
